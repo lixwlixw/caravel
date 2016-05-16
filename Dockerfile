@@ -30,7 +30,6 @@ ENV ROW_LIMIT=5000 \
 EXPOSE 8088
 
 RUN useradd -b /home -m -U caravel
-USER caravel
 
 WORKDIR /home/caravel
 
